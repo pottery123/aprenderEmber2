@@ -1,3 +1,5 @@
 {{outlet}}
 
-{{ log model}}
+{{#each model.data as |lang|}}
+{{ lang.attributes.translation}}
+{{/each}}
