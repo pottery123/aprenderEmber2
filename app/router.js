@@ -7,10 +7,15 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('language'                      ,{path: '/languages/:id'                         });
-  this.route('languages'                     ,{path:  '/languages'                            });
-  this.route('language-locations'            ,{path:  '/languages/:language_id/locations'     });
-  this.route('language-location'             ,{path:  '/languages/:language_id/locations/:id' });
+  this.route('language1',                     {path: '/languages/1'                          });
+  this.route('language2',                     {path: '/languages/2'                          });
+  this.route('languages',                     {path:  '/languages'                            });
+  this.route('language-locations1',           {path: '/languages/1/locations'                });
+  this.route('language-locations2',           {path: '/languages/2/locations'                });
+  this.route('language_location',             {path:  '/languages/:language_id/locations/:id' });
+  this.route('language_location1',            {path:  '/languages/1/locations/:id'            });
+  this.route('language_location2',            {path:  '/languages/2/locations/:id'            });
+
 });
 
 export default Router;

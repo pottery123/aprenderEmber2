@@ -1,9 +1,11 @@
 {{outlet}}
-<h2>yes</h2>
+<h2>yes go go</h2>
 
 
 
 
 {{#each model.data as |lang|}}
-{{  lang.attributes.name}}
+{{#link-to "language-locations" lang.id }}{{lang.attributes.name}}{{/link-to}}
+
+{{log lang.attributes.portuguese_id}}
 {{/each}}

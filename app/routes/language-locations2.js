@@ -5,8 +5,7 @@ export default Ember.Route.extend({
 model(params) {
   let language_id = params.language_id
   let id = params.id
-  console.log(params)
-   let result = this.get('ajax').request('http://localhost:3000/languages/' + language_id +'/locations');
+   let result = this.get('ajax').request('http://localhost:3000/languages/2/locations');
    console.log(result)
    return result
 },

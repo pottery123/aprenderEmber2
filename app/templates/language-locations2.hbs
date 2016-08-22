@@ -1,0 +1,8 @@
+{{outlet}}
+
+<h1>Locations spanish </h1>
+
+{{#each model.data as |lang|}}
+{{lang.attributes.name}}
+<button{{action "getName" lang.id  }}></button>
+{{/each}}
