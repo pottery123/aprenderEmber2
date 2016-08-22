@@ -3,8 +3,7 @@
 <h1>Locations portuguese </h1>
 
 {{#each model.data as |lang|}}
-{{lang.attributes.name}}
-<button{{action "getName" lang.id  }}></button>
+<button class="portugueseButtonsAllLocations"{{action "getName" lang.id  }}>{{lang.attributes.name}}</button>
 {{/each}}
 
 

@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(240,120,24);
+}
+
+
+
+.portugueseButtonsAllLocations {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:28px 76px;
+	text-decoration:none;
+}
+
+
+
+#first{
+  background-color: white:
+
+
+}
+
+.hide{
+  background-color: white
+
+}
+
+.show{
+  background-color: white;
+}

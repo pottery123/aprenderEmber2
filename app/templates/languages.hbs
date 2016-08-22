@@ -5,7 +5,6 @@
 
 
 {{#each model.data as |lang|}}
-{{#link-to "language-locations" lang.id }}{{lang.attributes.name}}{{/link-to}}
-
+{{lang.attributes.name}}
 {{log lang.attributes.portuguese_id}}
 {{/each}}

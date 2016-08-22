@@ -1,11 +1,22 @@
-<hello>Hi</hello>
+
 
 {{outlet}}
-<h1>yes htis</h1>
+
+
 {{#each model.data as |lang|}}
 
-{{log lang.attributes}}
 
-{{log lang}}
+
+
+  <div id='{{lang.id}}' {{action "front" lang.id}}>
+      <div class="primarylanguage" style="display:none;">
+          {{lang.attributes.primarylanguage}}
+      </div>
+      <div class="translation">
+        {{lang.attributes.translation}}
+
+      </div>
+  </div>
+
 
 {{/each}}
