@@ -1,11 +1,7 @@
 {{outlet}}
-
-<h1>Locations portuguese </h1>
-
-{{#each model.data as |lang|}}
-<button class="portugueseButtonsAllLocations"{{action "getName" lang.id  }}>{{lang.attributes.name}}</button>
-{{/each}}
-
-
-
-<!---<button{{action "getName" lang.id  }}></button>--->
+<h2 class="locationsPortugueseHeader">Locations portuguese </h2>
+  <table class="lcationsPortugueseTable">
+      {{#each model.data as |lang|}}
+        <button class="portugueseButtonsAllLocations"{{action "getName" lang.id  }}>{{lang.attributes.name}}</button>
+      {{/each}}
+  </table>
