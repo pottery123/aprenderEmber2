@@ -1,13 +1,8 @@
-
-
 {{outlet}}
+<h1>High Portuguese Words</h1>
 
-
+<table class="locationWords">
 {{#each model.data as |lang|}}
-
-
-
-
   <div id='{{lang.id}}' {{action "front" lang.id}}>
       <div class="primarylanguage" style="display:none;">
           {{lang.attributes.primarylanguage}}
@@ -17,6 +12,5 @@
 
       </div>
   </div>
-
-
 {{/each}}
+</table>

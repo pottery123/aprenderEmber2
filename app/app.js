@@ -15,4 +15,18 @@ App = Ember.Application.extend({
 
 loadInitializers(App, config.modulePrefix);
 
+$(document).ready(function(){
+  setBindings();
+});
+
+function setBindings(){
+  $(".menuView ul li").click(function(event){
+    var menuID  = event.currentTarget.id + "View";
+    $('#' + menuID).animate({ x: '-100%'});
+
+  });
+}
+
+
+
 export default App;

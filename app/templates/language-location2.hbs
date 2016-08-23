@@ -1,12 +1,8 @@
-<hello>Hi spanish</hello>
-
 {{outlet}}
-<h1>yes htis</h1>
 
+<h1>Spanish individual words</h1>
 {{#each model.data as |lang|}}
-
-
-
+  <table class="locationWords">
 
   <div id='{{lang.id}}' {{action "front" lang.id}}>
       <div class="primarylanguage" style="display:none;">
@@ -17,6 +13,5 @@
 
       </div>
   </div>
-
-
+</table>
 {{/each}}

@@ -1,8 +1,11 @@
 {{outlet}}
 
-<h1>Locations spanish </h1>
-
-{{#each model.data as |lang|}}
-{{lang.attributes.name}}
-<button{{action "getName" lang.id  }}></button>
+<table class="locationTables">
+  <h1>Locations spanish </h1>
+      {{#each model.data as |lang|}}
+          <table class="locationsTable">
+            {{lang.attributes.name}}
+        <button{{action "getName" lang.id  }}></button>
+        </table>
 {{/each}}
+</table>

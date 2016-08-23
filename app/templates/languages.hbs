@@ -1,10 +1,12 @@
 {{outlet}}
-<h2>yes go go</h2>
+<h2>Choose an langauge!</h2>
 
+<div class="locationsTable">
+  <table>
 
-
-
-{{#each model.data as |lang|}}
-{{lang.attributes.name}}
-{{log lang.attributes.portuguese_id}}
-{{/each}}
+  <ul class="link-to">
+    <button class="myButton"><li>{{#link-to "language-locations1"}}Portuguese{{/link-to}}</li>  </button>
+    <li>{{#link-to "language-locations2"}}Spanish   {{/link-to}}</li>
+  </ul>
+</table>
+</div>

@@ -1,42 +1,74 @@
-body{
-  background-color: rgb(240,120,24);
-  width: 100%;
+*{
+  margin: 0;
 }
 
-.locationsPortugueseHeader{
-  width: 700px ;
-  margin-left: auto ;
-  margin-right: auto ;
-
-
-}
-
-.lcationsPortugueseTable{
-  width: 700px ;
-  margin-left: auto ;
-  margin-right: auto ;
+html, body{
+  height: 100%;
+  overflow-x:hidden;
+  background-color: rgb(248,248,248) ;
 }
 
 
-.portugueseButtonsAllLocations {
-	background-color:#44c767;
-	-moz-border-radius:28px;
-	-webkit-border-radius:28px;
-	border-radius:28px;
-	border:0px solid #18ab29;
-	display:inline;
+.locationTables{
+    clear:both;
+    min-width: 220px;
+    margin: auto;
+}
+
+
+.locationWords{
+  clear:both;
+  margin: 0px auto;
+  height: 100%;
+
+}
+
+.allLanguages{
+  clear:both;
+  margin: 0px auto;
+  height: 100%;
+}
+
+.locationButtons{
+
+
+}
+
+
+.locationsTable{
+  clear:both;
+  margin: 0px auto;
+  height: 100%;
+
+}
+
+.link-to{
+list-style:square;
+list-style-position: inside;
+font-size: 20px;
+}
+
+.languageLinksHomePage{
+
+}
+
+.myButton {
+	background-color:transparent;
+	border:3px solid #18ab29;
+	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:17px;
-	padding:20px 100px;
+	padding:9px 74px;
 	text-decoration:none;
-  float: center;
-   display: flex;
-  display: list-item;
-  margin-bottom: 10%;
-  margin-left: 20%;
+	text-shadow:0px 0px 0px #2f6627;
 }
+
+
+
+
+
 
 
 
