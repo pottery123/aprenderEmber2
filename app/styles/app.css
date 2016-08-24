@@ -1,4 +1,4 @@
-*{
+/*{
   margin: 0;
 }
 
@@ -42,27 +42,41 @@ html, body{
 
 }
 
+.logo{
+  box-shadow: 10px 10px 5px #888888;
+  background: blue;
+  height: 20px;
+  width: 100%;
+
+}
+
+.colorLine{
+  background-color: red;
+  height:30px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.picture{
+  background-color: green;
+  height:40px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.box{
+  margin-top: 50px
+}
+
+
+
+
+
 .link-to{
-list-style:square;
-list-style-position: inside;
-font-size: 20px;
+
+
 }
 
 .languageLinksHomePage{
 
-}
-
-.myButton {
-	background-color:transparent;
-	border:3px solid #18ab29;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:9px 74px;
-	text-decoration:none;
-	text-shadow:0px 0px 0px #2f6627;
 }
 
 
@@ -85,4 +99,43 @@ font-size: 20px;
 
 .show{
   background-color: white;
+}
+
+.spanish{
+  background-image:url("images/brazil.png");
+  height:100px;
+}
+
+
+
+
+.panel-heading.one{
+  background: red;
+  <!--changes the header-->
+}
+
+
+
+.main-panel{
+
+background-color: rgb(252,235,182);
+*/
+
+.main-panel{
+  background-color:rgb(252,235,182);
+
+}
+
+.panel-default{
+
+}
+
+.words{
+  background-color: transparent;
+}
+
+.panel-body{
+
+
+
 }

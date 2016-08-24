@@ -1,12 +1,42 @@
 {{outlet}}
-<h2>Choose an langauge!</h2>
+<!--This panel is for the main background-->
+<div class="panel main-panel">
 
-<div class="locationsTable">
-  <table>
+<!--this panel is for the header-->
+  <div class="panel panel-default">
+    <div class="panel-heading image">Photo</div>
+    <div class="panel-body">
+      Choose a Language!
+    </div>
+  </div>
 
-  <ul class="link-to">
-    <button class="myButton"><li>{{#link-to "language-locations1"}}Portuguese{{/link-to}}</li>  </button>
-    <li>{{#link-to "language-locations2"}}Spanish   {{/link-to}}</li>
-  </ul>
-</table>
+<!--This panel is for the langauge portuguese-->
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    should be a photo or color
+  </div>
+  <div class="panel-footer">{{#link-to "language-locations1"}}Portuguese{{/link-to}}</div>
 </div>
+
+
+<!--This panel is for the langauge spanish-->
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    should be a photo or color
+  </div>
+  <div class="panel-footer">{{#link-to "language-locations2"}}Spanish{{/link-to}}</div>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+<!--main panel class-->
