@@ -4,6 +4,7 @@
     "ember": "~2.7.0",
     "ember-cli-shims": "0.1.1",
     "ember-qunit-notifications": "0.1.0",
-    "plyr": "^2.0.4"
+    "plyr": "^2.0.4",
+    "howler.js": "howler#^2.0.0"
   }
 }
