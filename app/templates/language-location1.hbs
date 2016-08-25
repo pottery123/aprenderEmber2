@@ -24,7 +24,9 @@
         {{lang.attributes.translation}}
       </div>
 
-      <button onclick={{action 'play' 'car' }}>Play sound</button>
+      {{log lang.attributes.sound}}
+
+      <button onclick={{action 'play' lang.attributes.sound }}>Play sound</button>
 
   </div>
 {{/each}}
