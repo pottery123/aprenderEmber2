@@ -3,11 +3,15 @@ import Em from 'ember';
 export default Em.Service.extend({
   init() {
     let howl = new Howl({
-      src: ['/car.mp3'],
+      src: ['/sprite2.mp3'],
       sprite: {
-        car: [0, 300],
-      }
-    });
+        seatbelt:       [0,1000 ],
+        frontSeat:      [1000,2000 ],
+        steeringWheel:  [3000, 4000],
+        windoW:         [300, 400],
+        car:            [400,500 ]
+      },
+});
 
     this.set('howl', howl);
   },
