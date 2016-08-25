@@ -3,7 +3,7 @@ import Em from 'ember';
 export default Em.Service.extend({
   init() {
     let howl = new Howl({
-      src: ['sprite.mp3'],
+      src: ['/car.mp3'],
       sprite: {
         car: [0, 300],
       }
