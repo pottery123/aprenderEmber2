@@ -121,21 +121,46 @@ html, body{
 background-color: rgb(252,235,182);
 */
 
-.main-panel{
-  background-color:rgb(252,235,182);
-
+.page-header h2{
+  color: blue;
 }
 
 .panel-default{
-
-}
-
-.words{
   background-color: transparent;
+  border-radius: 0px;
+  width: 80%;
+  length: 80px;
+  margin-left:40px;
 }
 
-.panel-body{
+.panel-default p{
+  padding-left: 70px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
 
+.panelLanguage1{
+  width: 50%;
+  height: 195px;
+  background-color: transparent;
+  margin-left:  25%;
+  border-radius: 25px;
+  margin-bottom: 10%;
+  margin-top: 40px;
+
+}
+
+.panelLanguage2{
+  width: 50%;
+  height: 200px;
+  margin-left:  25%;
+  background-color: red;
+  border-radius: 25px;
+
+}
+
+.panelLanguage1 .picture{
+margin-left: 40px;
 
 
 }

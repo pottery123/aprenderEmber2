@@ -1,36 +1,40 @@
 {{outlet}}
+
+<div class="page-header">
+  <h1>Aprender <small></small></h1>
+</div>
+
+
 <!--This panel is for the main background-->
-<div class="panel main-panel">
+
 
 <!--this panel is for the header-->
   <div class="panel panel-default">
-    <div class="panel-heading image">Photo</div>
-    <div class="panel-body">
-      Choose a Language!
-    </div>
+    <p>
+      Choose your language!
+    </p>
   </div>
 
 <!--This panel is for the langauge portuguese-->
 
-<div class="panel panel-default">
-  <div class="panel-body">
-    should be a photo or color
+
+  <div class="panel-body panelLanguage1">
+
+    <div class="picture">
+      <img src={{"brazil.png"}} alt="Logo">
+    </div>
+    {{#link-to "language-locations1"}}Portuguese{{/link-to}}
+
   </div>
-  <div class="panel-footer">{{#link-to "language-locations1"}}Portuguese{{/link-to}}</div>
-</div>
+
 
 
 <!--This panel is for the langauge spanish-->
 
-<div class="panel panel-default">
-  <div class="panel-body">
-    should be a photo or color
-  </div>
-  <div class="panel-footer">{{#link-to "language-locations2"}}Spanish{{/link-to}}</div>
-</div>
+    <div class="panel-body panelLanguage2">
+      {{#link-to "language-locations2"}}Spanish{{/link-to}}
+    </div>
 
-
-</div>
 
 
 

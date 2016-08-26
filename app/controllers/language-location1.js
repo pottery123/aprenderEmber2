@@ -15,5 +15,5 @@ actions: {
         console.log(sound)
 
       }
-    }
+
 });
