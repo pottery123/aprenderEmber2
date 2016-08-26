@@ -18,22 +18,25 @@
 <!--This panel is for the langauge portuguese-->
 
 
-  <div class="panel-body panelLanguage1">
+  <button class="panel-body panelLanguage1" {{action "toPortugueseLocations"}}>
+    <p>Portuguese</p>
 
     <div class="picture">
       <img src={{"brazil.png"}} alt="Logo">
     </div>
-    {{#link-to "language-locations1"}}Portuguese{{/link-to}}
 
-  </div>
+  </button>
 
 
 
 <!--This panel is for the langauge spanish-->
 
-    <div class="panel-body panelLanguage2">
-      {{#link-to "language-locations2"}}Spanish{{/link-to}}
-    </div>
+    <button class="panel-body panelLanguage2"{{action "toSpanishLocations"}}>
+      <p>Spanish</p>
+      <div class="picture">
+        <img src={{"spanish.png"}} alt="Logo">
+      </div>
+    </button>
 
 
 

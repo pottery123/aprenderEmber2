@@ -140,6 +140,7 @@ background-color: rgb(252,235,182);
 }
 
 .panelLanguage1{
+  outline: none;
   width: 50%;
   height: 195px;
   background-color: transparent;
@@ -147,6 +148,10 @@ background-color: rgb(252,235,182);
   border-radius: 25px;
   margin-bottom: 10%;
   margin-top: 40px;
+  border-color: blue;
+  text-shadow:none !important;
+  box-shadow:none;
+   border-image: none;
 
 }
 
@@ -154,13 +159,64 @@ background-color: rgb(252,235,182);
   width: 50%;
   height: 200px;
   margin-left:  25%;
-  background-color: red;
+  background-color: transparent;
   border-radius: 25px;
+  outline: none;
+  border-color: blue;
 
 }
 
 .panelLanguage1 .picture{
-margin-left: 40px;
+
+}
+
+
+
+.buttonPortugueseLocations{
+  width: 50%;
+  height: 200px;
+  margin-left:  25%;
+  background-color: transparent;
+  border-radius: 25px;
+  outline: none;
+  border-color: blue;
+  margin-bottom: 54px;
+}
+
+
+.primarylanguage{
+  width: 40%;
+  height: 70px;
+  margin-right:  25%;
+  background-color: red;
+  outline: none;
+  border-color: blue;
+  margin-bottom: 54px;
+  float:left;
+
+}
+
+.translation{
+  width: 40%;
+  height: 70px;
+  margin-right:  25%;
+  background-color: transparent;;
+  outline: none;
+  border-color: blue;
+  margin-bottom: 54px;
+  float: left;
+
+}
+
+.sound{
+  width: 40%;
+  height: 70px;
+  margin-right:  25%;
+  background-color: transparent;
+  outline: none;
+  border-color: blue;
+  float: left;
+  margin-bottom: 10px;
 
 
 }

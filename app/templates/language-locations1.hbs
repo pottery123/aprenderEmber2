@@ -1,22 +1,17 @@
 {{outlet}}
+<div class="page-header">
+  <h1>Aprender <small></small></h1>
+</div>
 <!--This is for the body of the page is shold have a background color-->
 <div class="panel panel-default">
+  <p>
+    Choose your location!
+  </p>
+</div>
 
 <!--This is for the lists of locations-->
-<div class="list-group">
-  <a href="#" class="list-group-item active">
-  Choose a location!
-  </a>
+
+
   {{#each model.data as |lang|}}
-  <a {{action "getName" lang.id  }}class="list-group-item">{{lang.attributes.name}}</a>
-
+  <button class="panel-body buttonPortugueseLocations" {{action "getName" lang.id  }}>{{lang.attributes.name}}</button>
   {{/each}}
-</div>
-
-
-
-      <table class="locationsTable">
-        <button class="locationButtons"{{action "getName" lang.id  }}>{{lang.attributes.name}}</button>
-      </table>
-
-</div>
