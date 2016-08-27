@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
+audioService: Em.inject.service(),
 ajax: Ember.inject.service(),
 actions: {
       front(id){
@@ -8,11 +9,17 @@ actions: {
             $("#" + id + " .translation").toggle()
 
       },
+      play(sound){
+        this.get('audioService').play(sound);
+        console.log(sound)
+      },
 
+      home(){
+        this.transitionToRoute('languages')
+      },
       back(){
+        this.transitionToRoute('language-locations2')
 
       }
     }
-
-
 });

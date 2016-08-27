@@ -1,15 +1,14 @@
 {{outlet}}
-  <!--this panel is for a header-->
 
   <div class="page-header">
     <h1>Aprender <small></small></h1>
   </div>
 
-
-
-<!--this panel is for the content-->
-
-
+  <div class="panel panel-default">
+    <p>
+      Explore
+    </p>
+  </div>
 
 
 {{#each model.data as |lang|}}
@@ -23,3 +22,6 @@
   </div>
   <button class="sound" onclick={{action 'play' lang.attributes.sound }}>lang.attributes.sound</button>
 {{/each}}
+
+<button class="navButton" {{action "home"}}>Home</button>
+<button class="navButton2" {{action "back"}}> Back</button>

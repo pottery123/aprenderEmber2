@@ -1,19 +1,20 @@
 {{outlet}}
 
-<h1>Spanish individual words</h1>
+<div class="page-header">
+  <h1>Aprender <small></small></h1>
+</div>
+
 {{#each model.data as |lang|}}
-  <table class="locationWords">
-
   <div id='{{lang.id}}' {{action "front" lang.id}}>
-      <div class="primarylanguage" style="display:none;">
+      <button class="primarylanguage" style="display:none;">
           {{lang.attributes.primarylanguage}}
-      </div>
-
-      <div class="translation">
+      </button>
+      <button class="translation">
         {{lang.attributes.translation}}
-      </div>
-
-
-  </div>
-</table>
+      </button>
+    </div>
+    <button class="sound" onclick={{action 'play' lang.attributes.sound }}>lang.attributes.sound</button>
 {{/each}}
+
+<button class="navButton" {{action "home"}}>Home</button>
+<button class="navButton2" {{action "back"}}> Back</button>

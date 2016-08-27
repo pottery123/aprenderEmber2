@@ -15,3 +15,6 @@
   {{#each model.data as |lang|}}
   <button class="panel-body buttonPortugueseLocations" {{action "getName" lang.id  }}>{{lang.attributes.name}}</button>
   {{/each}}
+
+  <button class="navButton" {{action "home"}}>Home</button>
+  <button class="navButton2" {{action "back"}}> Back</button>

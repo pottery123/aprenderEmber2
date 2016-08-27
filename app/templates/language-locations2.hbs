@@ -1,11 +1,17 @@
 {{outlet}}
+<div class="page-header">
+  <h1>Aprender <small></small></h1>
+</div>
 
-<table class="locationTables">
-  <h1>Locations spanish </h1>
-      {{#each model.data as |lang|}}
-          <table class="locationsTable">
-            {{lang.attributes.name}}
-        <button{{action "getName" lang.id  }}></button>
-        </table>
+<div class="panel panel-default">
+  <p>
+    Choose your location!
+  </p>
+</div>
+
+{{#each model.data as |lang|}}
+  <button class= "panel-body buttonPortugueseLocations"{{action "getName" lang.id  }}>{{lang.attributes.name}}</button>
 {{/each}}
-</table>
+
+<button class="navButton" {{action "home"}}>Home</button>
+<button class="navButton2" {{action "back"}}> Back</button>

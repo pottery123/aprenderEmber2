@@ -173,37 +173,40 @@ background-color: rgb(252,235,182);
 
 
 .buttonPortugueseLocations{
-  width: 50%;
-  height: 200px;
-  margin-left:  25%;
+  width: 75%;
+  height: 80px;
+  margin-left:  15%;
   background-color: transparent;
   border-radius: 25px;
   outline: none;
   border-color: blue;
-  margin-bottom: 54px;
+  margin-bottom: 40px;
+  clear:both;
 }
 
 
 .primarylanguage{
+  border-radius: 25px;
   width: 40%;
   height: 70px;
-  margin-right:  25%;
+  margin-left:  10%;
   background-color: red;
   outline: none;
   border-color: blue;
-  margin-bottom: 54px;
+  margin-bottom: 2px;
   float:left;
 
 }
 
 .translation{
+  border-radius: 25px;
   width: 40%;
   height: 70px;
-  margin-right:  25%;
+  margin-left:  10%;
   background-color: transparent;;
   outline: none;
   border-color: blue;
-  margin-bottom: 54px;
+  margin-bottom: 2px;
   float: left;
 
 }
@@ -211,12 +214,41 @@ background-color: rgb(252,235,182);
 .sound{
   width: 40%;
   height: 70px;
-  margin-right:  25%;
+  margin-left:  25%;
   background-color: transparent;
   outline: none;
   border-color: blue;
-  float: left;
+  float: right;
   margin-bottom: 10px;
+  border-radius: 25px;
+}
+.navButton{
+  position: fixed;
+  bottom:0;
+  left:0;
+  background-color: transparent;
+  float: left;
+  border-color: blue;
+  border-radius: 300px;
+  outline: none;
+  width: 20%;
+  height: 30px;
+  margin-top: 0px;
+  margin-left: 70px
+}
 
+.navButton2{
+  position: fixed;
+  bottom:0;
+  right:0;
+  background-color: red;
+  float: right;
+  border-color: transparent;;
+  border-radius: 300px;
+  outline: none;
+  width: 20%;
+  height: 30px;
+  margin-top: 0px;
+  margin-right: 50px
 
 }

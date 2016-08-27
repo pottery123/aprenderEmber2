@@ -13,7 +13,13 @@ actions: {
       play(sound){
         this.get('audioService').play(sound);
         console.log(sound)
+      },
+      home(){
+        this.transitionToRoute('languages')
+      },
+      back(){
+        this.transitionToRoute('language-locations1')
 
       }
-
+    }
 });
