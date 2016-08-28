@@ -1,20 +1,17 @@
 {{outlet}}
+
 <div class="page-header">
-  <h1>Aprender <small></small></h1>
+  <button class="navButton" {{action "home"}}> <span class="glyphicon glyphicon-home" aria-hidden="true"></span></button>
+  <button class="navButton2" {{action "back"}}><span class="	glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span></button>
+  <h1>Aprender </h1>
 </div>
-<!--This is for the body of the page is shold have a background color-->
+
 <div class="panel panel-default">
-  <p>
+  <p class="words">
     Choose A Location!
   </p>
 </div>
 
-<!--This is for the lists of locations-->
-
-
   {{#each model.data as |lang|}}
-  <button class="panel-body buttonPortugueseLocations" {{action "getName" lang.id  }}>{{lang.attributes.name}}</button>
+  <button class="panel-body buttonPortugueseLocations" {{action "getName" lang.id  }}><p class="words">{{lang.attributes.name}}</p></button>
   {{/each}}
-
-  <button class="navButton" {{action "home"}}>Home</button>
-  <button class="navButton2" {{action "back"}}> Back</button>

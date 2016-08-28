@@ -1,11 +1,13 @@
 {{outlet}}
 
   <div class="page-header">
-    <h1>Aprender <small></small></h1>
+    <button class="navButton" {{action "home"}}> <span class="glyphicon glyphicon-home" aria-hidden="true"></span></button>
+    <button class="navButton2" {{action "back"}}><span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span></button>
+    <h1>Aprender </h1>
   </div>
 
   <div class="panel panel-default">
-    <p>
+    <p class="words">
       Explore
     </p>
   </div>
@@ -14,14 +16,16 @@
 {{#each model.data as |lang|}}
   <div id='{{lang.id}}' {{action "front" lang.id}}>
       <button class="primarylanguage" style="display:none;">
-          {{lang.attributes.primarylanguage}}
+          <p class="words">
+            {{lang.attributes.translation}}
+          </p>
       </button>
       <button class="translation">
-        {{lang.attributes.translation}}
+        <p class="words">
+          {{lang.attributes.primarylanguage}}
+        </p>
+
       </button>
   </div>
-  <button class="sound" onclick={{action 'play' lang.attributes.sound }}>lang.attributes.sound</button>
+  <button class="sound" onclick={{action 'play' lang.attributes.sound }}><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></button>
 {{/each}}
-
-<button class="navButton" {{action "home"}}>Home</button>
-<button class="navButton2" {{action "back"}}> Back</button>
