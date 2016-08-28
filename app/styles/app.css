@@ -133,13 +133,14 @@ html, body{
 
 
 .page-header {
-color: blue;
+color:rgb( 120,192,168);
 }
 
 .page-header h1{
-
-  color: blue;
-  margin-left: 100px;
+  color: rgb( 120,192,168);
+  margin-left: 15px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 30px;
 
 }
 
@@ -263,20 +264,11 @@ color: blue;
   border-color: transparent;
   outline: none;
   float:right;
-  margin-right: -35px;
+  margin-right: -57px;
 
 }
 
-.glyphicon-home{
-  font-size: 20px;
-  color: rgb(120,192,168)
 
-}
-
-.glyphicon-chevron-left{
-  font-size: 20px;
-  color: rgb(120,192,168)
-}
 
 
 .words{
