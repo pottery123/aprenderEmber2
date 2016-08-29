@@ -6,7 +6,7 @@ model(params) {
 
    let language_id = params.language_id
    let id = params.id
-   let result =   this.get('ajax').request('http://localhost:3000/languages/1/locations/' + id);
+   let result =   this.get('ajax').request('https://aprenderapi.herokuapp.com/languages/1/locations/' + id);
    return  result
 },
 

@@ -5,7 +5,7 @@ export default Ember.Route.extend({
 model(params) {
   let id = params.id
   console.log(params)
-   let result = this.get('ajax').request('http://localhost:3000/languages/2');
+   let result = this.get('ajax').request('https://aprenderapi.herokuapp.com/languages/2');
    console.log(result)
    return result
 },
