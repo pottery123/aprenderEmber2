@@ -1,9 +1,10 @@
 import Em from 'ember';
+import config from '../config/environment';
 
 export default Em.Service.extend({
   init() {
     let howl = new Howl({
-      src: [ENV.rootURL + '/spanish.mp3'],
+      src: [config.rootURL + 'spanish.mp3'],
       volume: 1,
       onend: function() {
       alert('Finished!');
