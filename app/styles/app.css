@@ -1,131 +1,40 @@
-/*{
-  margin: 0;
-}
+
 
 html, body{
-  height: 100%;
-  overflow-x:hidden;
-  background-color: rgb(248,248,248) ;
-}
 
-
-.locationTables{
-    clear:both;
-    min-width: 220px;
-    margin: auto;
-}
-
-
-.locationWords{
-  clear:both;
-  margin: 0px auto;
-  height: 100%;
-
-}
-
-.allLanguages{
-  clear:both;
-  margin: 0px auto;
-  height: 100%;
-}
-
-.locationButtons{
 
 
 }
-
-
-.locationsTable{
-  clear:both;
-  margin: 0px auto;
-  height: 100%;
-
-}
-
-.logo{
-  box-shadow: 10px 10px 5px #888888;
-  background: blue;
-  height: 20px;
+.mainPage{
   width: 100%;
-
-}
-
-.colorLine{
-  background-color: red;
-  height:30px;
-  box-shadow: 10px 10px 5px #888888;
-}
-
-.picture{
-  background-color: green;
-  height:40px;
-  box-shadow: 10px 10px 5px #888888;
-}
-
-.box{
-  margin-top: 50px
+  height: 45px;
+  margin-top: 200px;
 }
 
 
-
-
-
-.link-to{
-
-
-}
-
-.languageLinksHomePage{
-
-}
-
-
-
-
-
-
-
-
-#first{
-  background-color: white:
-
+.go{
+  outline: none;
+  width: 50%;
+  height: 97.5px;
+  background-color:white;
+  margin-left:  25%;
+  border-radius: 100px;
+  margin-bottom: 10%;
+  margin-top: 300px;
+  border-color: rgb(120,192,168);
+  text-shadow:none !important;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 40px;
+  color: rgb(120,192,168);
+  border-style: solid;
 
 }
 
-.hide{
-  background-color: white
-
-}
-
-.show{
-  background-color: white;
-}
-
-.spanish{
-  background-image:url("images/brazil.png");
-  height:100px;
-}
-
-
-
-
-.panel-heading.one{
-  background: red;
-  <!--changes the header-->
-}
-
-
-
-.main-panel{
-
-background-color: rgb(252,235,182);
-*/
-
-
-
-
-html, body{
-
+.aprender{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-left: 20%;
+  font-size: 50px;
+  color:rgb( 120,192,168);
 }
 
 
