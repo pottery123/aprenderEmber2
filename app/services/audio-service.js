@@ -4,6 +4,10 @@ export default Em.Service.extend({
   init() {
     let howl = new Howl({
       src: ['/spanish.mp3'],
+      volume: 1,
+      onend: function() {
+      alert('Finished!');
+    },
       sprite: {
         car:           [34050, 2000 ],
         seatbelt:      [37190, 4317 ],
