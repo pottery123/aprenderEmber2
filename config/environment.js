@@ -40,7 +40,7 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     ENV.locationType = 'hash';
-    ENV.rootURL = '/ember-aprender2/';
+    ENV.rootURL = '/aprenderEmber2/';
 
   }
 
