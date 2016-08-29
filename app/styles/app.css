@@ -129,11 +129,35 @@ html, body{
 }
 
 
+.band{
+  width: 100%;
+  background-color: rgb( 120,192,168);
+  height: 45px;
+  margin-bottom: 45px;
+}
 
+.chooseLocation{
+  margin-left:130px;
+  padding-top: 15px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+}
+
+
+
+
+.explore{
+  margin-left:160px;
+  padding-top: 15px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size: 25px;
+}
 
 
 .page-header {
-color:rgb( 120,192,168);
+  text-align: center;
+  color:rgb( 120,192,168);
+  margin-bottom:0px;
 }
 
 .page-header h1{

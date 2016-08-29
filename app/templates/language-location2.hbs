@@ -6,6 +6,12 @@
   <h1>Aprender</h1>
 </div>
 
+<div class="band">
+  <p class="explore">
+    Explore! 
+  </p>
+</div>
+
 {{#each model.data as |lang|}}
   <div id='{{lang.id}}' {{action "front" lang.id}}>
       <button class="primarylanguage" style="display:none;">
