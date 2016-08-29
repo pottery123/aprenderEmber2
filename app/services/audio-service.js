@@ -3,7 +3,7 @@ import Em from 'ember';
 export default Em.Service.extend({
   init() {
     let howl = new Howl({
-      src: ['/spanish.mp3'],
+      src: [ENV.rootURL + '/spanish.mp3'],
       volume: 1,
       onend: function() {
       alert('Finished!');
