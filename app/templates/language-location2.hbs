@@ -1,15 +1,11 @@
 {{outlet}}
 
-<div class="page-header">
-  <button class="navButton" {{action "home"}}><p class="words">Home </p></button>
-  <button class="navButton2" {{action "back"}}><p class="words">Back </p></button>
-  <h1>Aprender</h1>
-</div>
-
 <div class="band">
-  <p class="explore">
-    Explore! 
-  </p>
+  <p class="chooseSomthing">
+    Explore!
+      <p class ="home" {{action "home"}}>Home</p>
+      <p class ="back"{{action "back"}}>Back</p>
+    </p>
 </div>
 
 {{#each model.data as |lang|}}

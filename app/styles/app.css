@@ -1,9 +1,6 @@
 
 
 html, body{
-
-
-
 }
 .mainPage{
   width: 100%;
@@ -11,16 +8,26 @@ html, body{
   margin-top: 200px;
 }
 
+.home{
+  float: right;
+  margin-right: 25px;
+}
+
+.back{
+  float: right;
+  padding-right: 20px;
+}
 
 .go{
-  outline: none;
-  width: 50%;
+
+ outline: none;
+  width: 20%;
   height: 97.5px;
   background-color:white;
-  margin-left:  25%;
+  margin-left:  36%;
   border-radius: 100px;
   margin-bottom: 10%;
-  margin-top: 300px;
+  margin-top: 30px;
   border-color: rgb(120,192,168);
   text-shadow:none !important;
   font-family: "Comic Sans MS", cursive, sans-serif;
@@ -32,53 +39,72 @@ html, body{
 
 .aprender{
   font-family: "Comic Sans MS", cursive, sans-serif;
-  margin-left: 20%;
-  font-size: 50px;
   color:rgb( 120,192,168);
+  margin-left: 40%;
+  font-size: 50px;
+  margin-bottom: 50px;
+  /*
+  */
 }
 
 
 .band{
   width: 100%;
   background-color: rgb( 120,192,168);
-  height: 45px;
-  margin-bottom: 45px;
+  height: 40px;
+  margin-top: 0px;
+  /*
+  */
 }
 
-.chooseLocation{
-  margin-left:130px;
-  padding-top: 15px;
+
+.chooseSomthing{
+  clear:both;
   font-family:"Comic Sans MS", cursive, sans-serif;
   font-size: 20px;
-}
+  position: relative;
+  margin-left: 10px;
+  color:white;
 
+
+  /*
+  font-size: 20px;
+  */
+}
 
 
 
 .explore{
+  /*
   margin-left:160px;
   padding-top: 15px;
   font-family:"Comic Sans MS", cursive, sans-serif;
   font-size: 25px;
+  */
 }
 
 
 .page-header {
+  margin-bottom:-10px;
+  /*
   text-align: center;
   color:rgb( 120,192,168);
-  margin-bottom:0px;
+  */
 }
 
 .page-header h1{
+  /*
   color: rgb( 120,192,168);
   margin-left: 15px;
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 30px;
+  */
 
 }
 
 
 .panel-default{
+  /*
   background-color:rgb( 120,192,168);
   border-radius: 0px;
   width: 60%;
@@ -86,120 +112,148 @@ html, body{
   margin-left:90px;
   margin-bottom: 30px;
   box-shadow: 1px 1px 1px 1px #ccc;
+  */
 
 }
 
 .panel-default p{
+  /*
 
   padding-left: 90px;
   padding-right: 50px;
   padding-top: 10px;
+  */
 }
 
 .panelLanguage1{
+
   outline: none;
-  width: 50%;
-  height: 195px;
+  width: 20%;
+  height: 200px;
   background-color:rgb(120,192,168);
-  margin-left:  25%;
+  margin-left:  40%;
   border-radius: 25px;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   margin-top: 40px;
   border-color: blue;
   text-shadow:none !important;
   border-color: transparent;
   box-shadow: 1px 1px 1px 1px #ccc;
 
+
 }
 
 .panelLanguage2{
-  width: 50%;
+
+  width: 20%;
   height: 200px;
-  margin-left:  25%;
+  margin-left:  40%;
   background-color:rgb(120,192,168);
   border-radius: 25px;
   outline: none;
   border-color: transparent;
   box-shadow: 1px 1px 1px 1px #ccc;
 
+
 }
 
 
-.buttonPortugueseLocations{
-  width: 75%;
+.buttonLanguagesLocations{
+
+  width: 20%;
   height: 80px;
-  margin-left:  15%;
+  margin-left:  35%;
   background-color: rgb(120,192,168);
   border-radius: 25px;
   outline: none;
   border-color: blue;
-  margin-bottom: 40px;
+  margin-top: 40px;
   clear:both;
   border-color: transparent;
   box-shadow: 1px 1px 1px 1px #ccc;
+  float:left;
+
 }
 
 
 .primarylanguage{
+  margin-top: 15px;
+
   clear:both;
   border-radius: 25px;
-  width: 40%;
+  width: 20%;
   height: 70px;
-  margin-left:  10%;
+  margin-left:  20%;
   background-color: rgb(240,168,48);
   outline: none;
   border-color: transparent;
   margin-bottom: 2px;
   float:left;
-    box-shadow: 1px 1px 1px 1px #ccc;
+  box-shadow: 1px 1px 1px 1px #ccc;
 
 }
 
 .translation{
+
   clear: both;
   border-radius: 25px;
-  width: 40%;
+  width: 20%;
   height: 70px;
-  margin-left:  10%;
+  margin-left:  20%;
+  margin-top: 15px;
   background-color: rgb(120,192,168);
   outline: none;
   border-color: transparent;
   margin-bottom: 2px;
   float: left;
   box-shadow: 1px 1px 1px 1px #ccc;
-
 }
 
 .sound{
-  width: 40%;
+
+  width: 20%;
   height: 70px;
-  margin-right:  5%;
+  margin-right:  30%;
   background-color: rgb(120,192,168);
   outline: none;
   border-color: transparent;
   float: right;
-  margin-top: 0px;
-  margin-bottom: 50px;
+  margin-top: 15px;
+  margin-bottom: 20px;
   border-radius: 25px;
   box-shadow: 1px 1px 1px 1px #ccc;
+
 }
 .navButton{
+
   background-color: transparent;
-  float: right;
   border-color: transparent;
-  outline: none;
-  margin-right: 50px;
-  margin-top: -30px
+  outline:none;
+  margin-left: 80%;
+  margin-bottom: 0px;
+  padding-top: -15px;
+  clear:both;
 
 }
 
 .navButton2{
   background-color: transparent;
-  float: right;
+  outline:none;
   border-color: transparent;
-  outline: none;
-  float:right;
-  margin-right: -57px;
+  clear:both;
+
+}
+
+.navWords{
+  color: rgb(120,192,168);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 30px;
+
+}
+
+
+.footer{
+  clear:both;
 
 }
 
@@ -210,9 +264,15 @@ html, body{
 
 .words{
   font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 20px
+  font-size: 20px;
+  color:white;
+  padding:-20px;
+  /*
+  */
 }
 
 .glyphicon-play-circle{
+  /*
   font-size: 20px;
+  */
 }
