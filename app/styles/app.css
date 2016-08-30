@@ -251,7 +251,7 @@ html{
   margin-top: 15px;
   border-radius: 25px;
   width: 50%;
-  height: 80px;
+  height: 85px;
   margin-left:  4%;
   background-color: rgb(240,168,48);
   outline: none;
@@ -268,7 +268,7 @@ html{
   margin-top: 15px;
   margin-left:  4%;
   margin-right: auto;
-  height: 80px;
+  height: 85px;
   width: 50%;
   background-color: rgb(120,192,168);
   outline: none;
@@ -285,7 +285,7 @@ html{
   float: right;
   margin-right: 3%;
   margin-left:  40%;
-  margin-top: -80px;
+  margin-top: -85px;
   margin-bottom: -50px;
   background-color: rgb(120,192,168);
   outline: none;
