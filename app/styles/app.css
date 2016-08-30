@@ -1,7 +1,10 @@
 
 
 html, body{
+  height: 100%;
+  width: 100%;
 }
+
 .mainPage{
   width: 100%;
   height: 45px;
@@ -37,22 +40,31 @@ html, body{
 
 }
 
+
+
 .aprender{
+  overflow:hidden;
   font-family: "Comic Sans MS", cursive, sans-serif;
   color:rgb( 120,192,168);
-  margin-left: 40%;
   font-size: 50px;
   margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: 0px;
+  display:inline-block;
   /*
   */
 }
 
 
 .band{
-  width: 100%;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
   background-color: rgb( 120,192,168);
-  height: 40px;
+  height: 10vh;
   margin-top: 0px;
+  overflow:hidden;
   /*
   */
 }
@@ -86,6 +98,8 @@ html, body{
 
 .page-header {
   margin-bottom:-10px;
+  margin: auto;
+  max-width: 100%;
   /*
   text-align: center;
   color:rgb( 120,192,168);
@@ -139,6 +153,7 @@ html, body{
   text-shadow:none !important;
   border-color: transparent;
   box-shadow: 1px 1px 1px 1px #ccc;
+  overflow:hidden;
 
 
 }
@@ -153,6 +168,7 @@ html, body{
   outline: none;
   border-color: transparent;
   box-shadow: 1px 1px 1px 1px #ccc;
+  overflow:hidden;
 
 
 }
