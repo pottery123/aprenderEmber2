@@ -250,9 +250,9 @@ html{
   clear:both;
   margin-top: 15px;
   border-radius: 25px;
-  width: 30%;
-  height: 70px;
-  margin-left:  10%;
+  width: 50%;
+  height: 75px;
+  margin-left:  4%;
   background-color: rgb(240,168,48);
   outline: none;
   border-color: transparent;
@@ -266,10 +266,10 @@ html{
   clear:both;
   border-radius: 25px;
   margin-top: 15px;
-  margin-left:  10%;
+  margin-left:  4%;
   margin-right: auto;
-  height: 70px;
-  width: 30%;
+  height: 75px;
+  width: 50%;
   background-color: rgb(120,192,168);
   outline: none;
   border-color: transparent;
@@ -281,9 +281,9 @@ html{
 .sound{
   clear:both;
   width: 30%;
-  height: 70px;
+  height: 75px;
   float: right;
-  margin-right: 15%;
+  margin-right: 3%;
   margin-left:  40%;
   margin-top: -70px;
   margin-bottom: -50px;
