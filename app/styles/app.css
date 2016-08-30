@@ -24,6 +24,28 @@ html{
 }
 */
 
+.page-header {
+  border: solid red;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  overflow: visible;
+  /*
+  text-align: center;
+  color:rgb( 120,192,168);
+  */
+}
+
+.page-header h1{
+  border: solid green;
+  /*
+  color: rgb( 120,192,168);
+  margin-left: 15px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 30px;
+  */
+
+}
 
 .band{
   margin: auto;
@@ -34,9 +56,36 @@ html{
   margin-top: 0px;
   overflow:hidden;
   padding:0%;
+  padding: 20px;
+
+
   /*
   */
 }
+
+.home{
+  float: right;
+  margin-right: 65px;
+  border: solid yellow;
+}
+
+.back{
+  float: right;
+  padding-right: 20px;
+  border: solid red;
+
+  margin-right: 15px;
+  padding: 10px;
+  background: blue;
+  border-radius: 15px;
+
+
+}
+
+
+
+
+
 .container{
   width:100%;
   padding:0% 0% 0% 0%;
@@ -49,15 +98,7 @@ html{
   margin-top: 200px;
 }
 
-.home{
-  float: right;
-  margin-right: 25px;
-}
 
-.back{
-  float: right;
-  padding-right: 20px;
-}
 
 .go{
 
@@ -65,7 +106,8 @@ html{
   width: 20%;
   height: 97.5px;
   background-color:white;
-  margin-left:  36%;
+  margin-right: auto;
+  margin-left:  40%;
   border-radius: 100px;
   margin-bottom: 10%;
   margin-top: 30px;
@@ -75,6 +117,7 @@ html{
   font-size: 40px;
   color: rgb(120,192,168);
   border-style: solid;
+
 
 }
 
@@ -119,25 +162,7 @@ html{
 }
 
 
-.page-header {
-  margin-bottom:-10px;
-  margin: auto;
-  width: 100%;
-  /*
-  text-align: center;
-  color:rgb( 120,192,168);
-  */
-}
 
-.page-header h1{
-  /*
-  color: rgb( 120,192,168);
-  margin-left: 15px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 30px;
-  */
-
-}
 
 
 .panel-default{
