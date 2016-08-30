@@ -1,4 +1,4 @@
-@media (max-width: 978px) {
+
 
 
 
@@ -27,13 +27,13 @@ html{
 
 .band{
   margin: auto;
-   margin:0;
+  margin:0;
   width: 100%;
   background-color: rgb( 120,192,168);
   height: 10vh;
   margin-top: 0px;
   overflow:hidden;
-  padding:0%
+  padding:0%;
   /*
   */
 }
@@ -317,6 +317,4 @@ html{
   /*
   font-size: 20px;
   */
-}
-
 }
