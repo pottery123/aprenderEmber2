@@ -69,8 +69,12 @@ html{
 }
 
 .home{
+  padding-bottom: -20%;
   float: right;
   margin-right: 20px;
+  color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 150%;
 }
 
 .back{
@@ -78,6 +82,15 @@ html{
   padding-right: 20px;
   margin-right: 15px;
   padding: 0px;
+  color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 150%;
+}
+
+.navBox{
+  padding-bottom: -20%;
+
+
 }
 
 
