@@ -251,7 +251,7 @@ html{
   margin-top: 15px;
   border-radius: 25px;
   width: 50%;
-  height: 75px;
+  height: 80px;
   margin-left:  4%;
   background-color: rgb(240,168,48);
   outline: none;
@@ -268,7 +268,7 @@ html{
   margin-top: 15px;
   margin-left:  4%;
   margin-right: auto;
-  height: 75px;
+  height: 80px;
   width: 50%;
   background-color: rgb(120,192,168);
   outline: none;
@@ -281,11 +281,11 @@ html{
 .sound{
   clear:both;
   width: 30%;
-  height: 75px;
+  height: 85px;
   float: right;
   margin-right: 3%;
   margin-left:  40%;
-  margin-top: -70px;
+  margin-top: -80px;
   margin-bottom: -50px;
   background-color: rgb(120,192,168);
   outline: none;
@@ -328,15 +328,11 @@ html{
 }
 
 
-
-
-
-
 .words{
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 20px;
   color:white;
-  padding-bottom:40px;
+  padding-bottom:50px;
 }
 
 .glyphicon-play-circle{
