@@ -38,6 +38,7 @@ html{
 
 .page-header h1{
   border: solid green;
+  width: 100%;
   /*
   color: rgb( 120,192,168);
   margin-left: 15px;
@@ -52,7 +53,7 @@ html{
   margin:0;
   width: 100%;
   background-color: rgb( 120,192,168);
-  height: 10vh;
+  height: 25%;
   margin-top: 0px;
   overflow:hidden;
   padding:0%;
