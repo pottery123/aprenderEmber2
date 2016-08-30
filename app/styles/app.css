@@ -195,14 +195,15 @@ html{
 
 .panelLanguage1{
 
+
   outline: none;
   width: 50%;
   height: 200px;
   background-color:rgb(120,192,168);
-  margin-left:  40%;
+  margin-left:  25%;
   border-radius: 25px;
   margin-bottom: 5%;
-  margin-top: 40px;
+  margin-top: 30px;
   border-color: blue;
   text-shadow:none !important;
   border-color: transparent;
@@ -216,7 +217,7 @@ html{
 
   width: 50%;
   height: 200px;
-  margin-left:  40%;
+  margin-left:  25%;
   background-color:rgb(120,192,168);
   border-radius: 25px;
   outline: none;
