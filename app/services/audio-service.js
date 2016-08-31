@@ -7,7 +7,6 @@ export default Em.Service.extend({
       src: [config.rootURL + 'spanish.mp3'],
       volume: 1,
       onend: function() {
-      alert('Finished!');
     },
       sprite: {
         car:           [34050, 2000 ],
