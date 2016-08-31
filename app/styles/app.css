@@ -1,29 +1,5 @@
 
 
-
-
-
-
-
-
-/*
-body{
-  overflow-x: hidden;
-  height: 100%;
-  width: 100%;
-  padding:0;
-  margin:0;
-}
-
-html{
-  overflow-x: hidden;
-  height: 100%;
-  width: 100%;
-  padding:0;
-  margin:0;
-}
-*/
-
 .page-header {
   text-align: center;
   margin: auto;
@@ -41,13 +17,6 @@ html{
   width: 100%;
   padding-left: 30%;
 
-  /*
-  color: rgb( 120,192,168);
-  margin-left: 15px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 30px;
-  */
-
 }
 
 .band{
@@ -61,9 +30,6 @@ html{
   padding:0%;
   padding: 20px;
 
-
-  /*
-  */
 }
 
 .home{
@@ -85,11 +51,6 @@ html{
   font-size: 150%;
 }
 
-.navBox{
-
-
-
-}
 
 
 .mainPage{
@@ -102,13 +63,14 @@ html{
 
 .go{
 
- outline: none;
+  clear:both;
+  outline: none;
   width: 20%;
   height: 97.5px;
   background-color:white;
   margin-right: auto;
   margin-left:  40%;
-  border-radius: 100px;
+  border-radius: 200px;
   margin-bottom: 10%;
   margin-top: 30px;
   border-color: rgb(120,192,168);
@@ -145,9 +107,6 @@ html{
   color:white;
 
 
-  /*
-  font-size: 20px;
-  */
 }
 
 
@@ -158,37 +117,8 @@ html{
   padding-top: 15px;
   font-family:"Comic Sans MS", cursive, sans-serif;
   font-size: 25px;
-  
-}
-
-
-
-
-
-.panel-default{
-  /*
-  background-color:rgb( 120,192,168);
-  border-radius: 0px;
-  width: 60%;
-  length: 60px;
-  margin-left:90px;
-  margin-bottom: 30px;
-  box-shadow: 1px 1px 1px 1px #ccc;
-  */
 
 }
-
-.panel-default p{
-  /*
-
-  padding-left: 90px;
-  padding-right: 50px;
-  padding-top: 10px;
-  */
-}
-
-
-
 
 
 .panelLanguage1{
@@ -322,6 +252,7 @@ html{
 
 .footer{
   clear:both;
+  margin-top: 30%;
 
 }
 
@@ -334,7 +265,6 @@ html{
 }
 
 .glyphicon-play-circle{
-  /*
+
   font-size: 20px;
-  */
 }
