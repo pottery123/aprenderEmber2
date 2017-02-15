@@ -1,6 +1,62 @@
+html, body{
+  background-color: #F7F7F7;
+  height: 100%;
+  display: block;
+
+}
 
 
-.page-header {
+.wrap{
+  min-height: 100%;
+  margin: 0 auto 300px;
+}
+
+.navbar-custom{
+  background-color: #2C3E50;
+  color: white;
+  border-radius: 0 0 1px;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+
+
+.jumbotron {
+    width: 100%;
+    height: 600px;
+    padding-top: 125px;
+    background-color: #18BC9C;
+    background-size: cover;
+    color: white;
+
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+ul {list-style: none;padding: 0px;margin: 0px;}
+  ul li {display: block;position: relative;float: left;border:1px solid #000}
+  li ul {display: none;}
+  ul li a {display: block;background: #000;padding: 5px 10px 5px 10px;text-decoration: none;
+           white-space: nowrap;color: #fff;}
+  ul li a:hover {background: #f00;}
+  li:hover ul {display: block; position: absolute;}
+  li:hover li {float: none;}
+  li:hover a {background: #f00;}
+  li:hover li a:hover {background: #000;}
+  #drop-nav li ul li {border-top: 0px;}
+
+
+
+
+
+/*.page-header {
+  background-color: green;
   text-align: center;
   margin: auto;
   width: 100%;
@@ -11,13 +67,13 @@
   */
 }
 
-.page-header h1{
+/*.page-header h1{
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   padding-left: 30%;
 
-}
+}*/
 
 .band{
   margin: auto;
@@ -88,11 +144,13 @@
 .aprender{
   font-family: "Comic Sans MS", cursive, sans-serif;
   color:rgb( 120,192,168);
-  font-size: 50px;
   margin-bottom: 50px;
-  margin-top: 20px;
   margin-left: 0px;
+  margin-right: -200px;
+  float:left;
+  font-size: 50px;
   display:inline-block;
+
 }
 
 
@@ -170,6 +228,7 @@
   border-color: transparent;
   box-shadow: 1px 1px 1px 1px #ccc;
   float:left;
+
 
 }
 
