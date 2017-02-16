@@ -1,4 +1,35 @@
-html, body{
+.row{
+  background-color: #F7F7F7;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+
+  header, main, footer {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+
+
+
+
+
+
+/*html, body{
   background-color: #F7F7F7;
   height: 100%;
   display: block;
@@ -326,4 +357,4 @@ ul {list-style: none;padding: 0px;margin: 0px;}
 .glyphicon-play-circle{
 
   font-size: 20px;
-}
+}*/
